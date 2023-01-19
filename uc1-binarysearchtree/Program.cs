@@ -22,8 +22,11 @@ namespace BinarySearchTree1
             BinaryTree.AddNode(65);
             BinaryTree.AddNode(3);
 
-            int Size = BinaryTree.GetSize();
-            Console.WriteLine(Size);
+            //int Size = BinaryTree.GetSize();
+            //Console.WriteLine(Size);
+
+            bool result = BinaryTree.SearchKey(63);
+            Console.WriteLine(result);
         }
     }
 }
