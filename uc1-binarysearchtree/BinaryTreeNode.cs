@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTree1
 {
+
     public class BinarySearchTreeNode<K>
     {
         public K Key;
